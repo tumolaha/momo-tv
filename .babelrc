@@ -1,0 +1,15 @@
+{
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "root": ["./"],
+          "alias": {
+            "@components": "./src/components",
+            "@constants": "./src/constants"
+          },
+          "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        }
+      ]
+    ]
+  }
