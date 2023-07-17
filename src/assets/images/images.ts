@@ -1,5 +1,6 @@
 const images : any={
-    logo: require('./avartar.jpg'),
+    logo: require('./logomomo.png'),
+    avartar: require('./avartar.jpg'),
 }
 
 export default images;

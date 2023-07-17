@@ -1,8 +1,11 @@
-import React from 'react'
+import React from "react"
+import HeroSlider from "src/layout/components/HeroSlider"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="flex-col">
+      <HeroSlider />
+    </div>
   )
 }
 
