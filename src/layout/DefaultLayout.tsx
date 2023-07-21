@@ -5,7 +5,7 @@ type props ={
 function Defaultlayout({children}:props) {
   return (
     <div className="flex items-center">
-      <div className="siderbar  w-[200px]">
+      <div className="siderbar w-[200px]">
         <Sidebar />
       </div>
       <div className="container">
